@@ -3,6 +3,10 @@
 
 /* form styling */
 
+body{
+  background-color: #f6faf3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #wrapper {
 	width: 60%;
@@ -15,14 +19,16 @@ div#formcol1 {
 }
 
 label{
-    margin-right: 3em;
-    width: 6.3em;
+    margin-right: 4em;
+    width: 6.5em;
     display: inline-block;
     text-align: left;
 }
 
 #formcol1 li{
     list-style: none;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 
 select:focus,
@@ -39,8 +45,11 @@ label[for]:active {
 
 #formcol1 input.reqfield {
     background: #ff9;
-  }
+}
 
+.required{
+  color: #E60000;
+}
 
 
 /* end of form css */

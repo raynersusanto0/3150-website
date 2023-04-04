@@ -28,12 +28,12 @@
         <aside>Please fill required inputs labeled in yellow</aside>
         <ul>
             <li>
-                <label for="fstspkr1">First Name:</label>
-                <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" />
+                <label for="fstspkr1" class="required">First Name:*</label>
+                <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" aria-required="true"/>
             </li>
             <li>
-                    <label for="lstname1">Last Name:</label>
-                    <input id="lstname1" name="lstname1" type="text" class="reqfield"  />
+                    <label for="lstname1" class="required">Last Name:*</label>
+                    <input id="lstname1" name="lstname1" type="text" class="reqfield"  aria-required="true"/>
             </li>
             <li>
                 <label>Title:</label>
@@ -48,8 +48,8 @@
                 <input id="department1" name="department1" type="text"  />
             </li>
             <li>
-                <label>Address:</label>
-                <input id="address1" class="reqfield" name="address1" type="text" />
+                <label class="required">Address:*</label>
+                <input id="address1" class="reqfield" name="address1" type="text" aria-required="true"/>
             </li>
     </ul>
     
@@ -63,11 +63,13 @@
                 
                 <span><input value="2" id="TypeofPres_lab" name="p-type" type="radio"  /><label for="TypeofPres_lab">Computer Lab</label></span></p>
                 
-            <p class="submit-button">    
+               
     
         
         </fieldset>
-        <input type="submit" value="Submit your proposal" /></p>   
+        <p class="submit-button"> 
+        <input type="submit" value="Submit your proposal" />
+        </p>   
     </div> <!-- end of multchoice div -->
  </fieldset>
  

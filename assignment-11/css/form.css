@@ -8,6 +8,11 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+legend{
+  font-size: larger;
+  font-weight: 700;
+}
+
 #wrapper {
 	width: 60%;
 	margin-left:4%;
@@ -47,7 +52,7 @@ label[for]:active {
     background: #ff9;
 }
 
-.required{
+.required, aside{
   color: #E60000;
 }
 

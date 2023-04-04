@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label{
+    margin-right: 3em;
+    width: 6.3em;
+    display: inline-block;
+    text-align: left;
+}
+
+#formcol1 li{
+    list-style: none;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+  color: #fff !important;
+  background-color: #bb3d2f !important;
+}
+
+#formcol1 input.reqfield {
+    background: #ff9;
+  }
+
+
+
+/* end of form css */
+	
